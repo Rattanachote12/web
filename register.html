@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./register.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=RocknRoll One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="register-div">
+      <div class="botton-div">
+        <div class="register-div1" id="registerContainer">
+          <div class="rectangle-div35"></div>
+          <b class="register-b">Register</b>
+        </div>
+        <div class="reset-div">
+          <div class="rectangle-div35"></div>
+          <b class="reset-b">Reset</b>
+        </div>
+      </div>
+      <div class="text-div">
+        <div class="retype-password-div">
+          <div class="rectangle-div37"></div>
+          <div class="retype-password-div1">Retype Password</div>
+        </div>
+        <div class="password-div2">
+          <div class="rectangle-div37"></div>
+          <div class="retype-password-div1">Password</div>
+        </div>
+        <div class="username-div4">
+          <div class="rectangle-div37"></div>
+          <div class="retype-password-div1">Username</div>
+        </div>
+        <div class="email-div">
+          <div class="rectangle-div37"></div>
+          <div class="retype-password-div1">Email</div>
+        </div>
+        <div class="gender-div">
+          <img class="vector-icon4" alt="" src="public/vector3.svg" /><img
+            class="vector-icon5"
+            alt=""
+            src="public/vector4.svg"
+          />
+          <div class="male-div">Male</div>
+          <div class="female-div">Female</div>
+          <div class="other-div">Other</div>
+          <img class="ellipse-icon4" alt="" src="public/ellipse-1.svg" />
+        </div>
+        <div class="birthday-div">
+          <div class="rectangle-div37"></div>
+          <div class="birthday-div1">Birthday</div>
+          <img class="uilcalender-icon" alt="" src="public/uilcalender.svg" />
+        </div>
+        <div class="rectangle-div42">
+          <div class="rectangle-div43"></div>
+          <div class="last-name-div">Last name</div>
+        </div>
+        <div class="rectangle-div44">
+          <div class="rectangle-div43"></div>
+          <div class="first-name-div">First name</div>
+        </div>
+      </div>
+      <b class="sign-up-b">Sign Up</b>
+    </div>
+
+    <script>
+      var registerContainer = document.getElementById("registerContainer");
+      if(registerContainer) {
+        registerContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html"
+        });
+      }
+    </script>
+  </body>
+</html>

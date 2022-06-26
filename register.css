@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div35 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #ea5c8a;
+  width: 239px;
+  height: 74px;
+}
+.register-b {
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  display: inline-block;
+  width: 164px;
+  height: 41px;
+}
+.register-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 239px;
+  height: 74px;
+  cursor: pointer;
+}
+.reset-b {
+  position: absolute;
+  top: 16px;
+  left: 38px;
+  display: inline-block;
+  width: 164px;
+  height: 41px;
+}
+.botton-div,
+.rectangle-div37,
+.reset-div {
+  position: absolute;
+  top: 0;
+  left: 269px;
+  width: 239px;
+  height: 74px;
+}
+.botton-div,
+.rectangle-div37 {
+  top: 843px;
+  left: 466px;
+  width: 508px;
+}
+.rectangle-div37 {
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.4);
+}
+.retype-password-div1 {
+  position: absolute;
+  height: 32.43%;
+  width: 90.75%;
+  top: 33.78%;
+  right: 3.74%;
+  bottom: 33.78%;
+  left: 5.51%;
+  font-weight: 300;
+  display: inline-block;
+}
+.email-div,
+.password-div2,
+.retype-password-div,
+.username-div4 {
+  position: absolute;
+  top: 579px;
+  left: 0;
+  width: 508px;
+  height: 74px;
+}
+.email-div,
+.password-div2,
+.username-div4 {
+  top: 476px;
+}
+.email-div,
+.username-div4 {
+  top: 373px;
+}
+.email-div {
+  top: 270px;
+}
+.vector-icon4,
+.vector-icon5 {
+  position: absolute;
+  height: 100%;
+  width: 6.05%;
+  top: 0;
+  right: 57.14%;
+  bottom: 0;
+  left: 36.8%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.vector-icon5 {
+  height: 85.71%;
+  width: 7.26%;
+  top: 8.57%;
+  right: 92.74%;
+  bottom: 5.71%;
+  left: 0;
+}
+.female-div,
+.male-div,
+.other-div {
+  position: absolute;
+  top: 6px;
+  left: 47px;
+  display: inline-block;
+}
+.female-div,
+.other-div {
+  left: 189px;
+}
+.other-div {
+  left: 363px;
+}
+.ellipse-icon4,
+.gender-div {
+  position: absolute;
+  top: 3px;
+  left: 316px;
+  width: 30px;
+  height: 30px;
+}
+.gender-div {
+  height: 5.36%;
+  width: 81.3%;
+  top: 31.55%;
+  right: 9.65%;
+  bottom: 63.09%;
+  left: 9.06%;
+  color: #73777b;
+}
+.birthday-div1 {
+  position: absolute;
+  height: 32.43%;
+  width: 14.37%;
+  top: 33.78%;
+  right: 80.12%;
+  bottom: 33.78%;
+  left: 5.51%;
+  font-weight: 300;
+  display: inline-block;
+}
+.uilcalender-icon {
+  position: absolute;
+  top: 22px;
+  left: 448px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.birthday-div,
+.rectangle-div43 {
+  position: absolute;
+  top: 103px;
+  left: 0;
+  width: 508px;
+  height: 74px;
+}
+.rectangle-div43 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.4);
+}
+.last-name-div {
+  position: absolute;
+  height: 32.43%;
+  width: 76.52%;
+  top: 33.78%;
+  right: 11.3%;
+  bottom: 33.78%;
+  left: 12.17%;
+  font-weight: 300;
+  display: inline-block;
+}
+.first-name-div,
+.rectangle-div42 {
+  position: absolute;
+  top: 0;
+  left: 278px;
+  width: 230px;
+  height: 74px;
+}
+.first-name-div {
+  height: 32.43%;
+  width: 79.57%;
+  top: 33.78%;
+  right: 8.26%;
+  bottom: 33.78%;
+  left: 12.17%;
+  font-weight: 300;
+  display: inline-block;
+}
+.rectangle-div44,
+.text-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 230px;
+  height: 74px;
+}
+.text-div {
+  top: 162px;
+  left: 466px;
+  width: 508px;
+  height: 653px;
+  text-align: left;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.sign-up-b {
+  position: absolute;
+  top: 58px;
+  left: 640px;
+  font-size: 48px;
+  display: inline-block;
+  color: #000;
+  width: 160px;
+  height: 58px;
+}
+.register-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 985px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: Inria Sans;
+}

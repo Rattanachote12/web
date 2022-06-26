@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0dbb84;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1440px;
+  height: 75px;
+}
+.uiwstar-on-icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.line-div {
+  position: absolute;
+  top: -1px;
+  left: 124px;
+  border-right: 2px solid #fff;
+  box-sizing: border-box;
+  width: 2px;
+  height: 52px;
+}
+.std-div {
+  position: absolute;
+  top: 5px;
+  left: 45px;
+  display: inline-block;
+}
+.name-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125px;
+  height: 50px;
+}
+.ant-designhome-filled-icon,
+.eppostcard-icon {
+  position: absolute;
+  top: 5px;
+  left: 173px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.eppostcard-icon {
+  top: 0;
+  left: 259px;
+  width: 50px;
+  height: 50px;
+}
+.vector-icon {
+  position: absolute;
+  height: 78.13%;
+  width: 8.79%;
+  top: 21.87%;
+  right: 0;
+  bottom: 0;
+  left: 91.21%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.feapp-menu-icon,
+.head-div {
+  position: absolute;
+  top: 13px;
+  left: 28px;
+  width: 398px;
+  height: 51.98px;
+}
+.feapp-menu-icon {
+  top: 18px;
+  left: 1380px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.rectangle-div5,
+.rectangle-div6,
+.rectangle-div7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.5);
+  width: 292px;
+  height: 231px;
+}
+.rectangle-div6,
+.rectangle-div7 {
+  top: 540px;
+}
+.rectangle-div7 {
+  top: 270px;
+  left: 677px;
+}
+.rectangle-div10,
+.rectangle-div11,
+.rectangle-div12,
+.rectangle-div13,
+.rectangle-div8,
+.rectangle-div9 {
+  position: absolute;
+  top: 540px;
+  left: 1016px;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 0.5);
+  width: 292px;
+  height: 231px;
+}
+.rectangle-div10,
+.rectangle-div11,
+.rectangle-div12,
+.rectangle-div13,
+.rectangle-div9 {
+  top: 270px;
+  left: 0;
+  width: 630px;
+}
+.rectangle-div10,
+.rectangle-div11,
+.rectangle-div12,
+.rectangle-div13 {
+  top: 540px;
+  left: 347px;
+}
+.rectangle-div11,
+.rectangle-div12,
+.rectangle-div13 {
+  top: 0;
+  left: 1016px;
+  width: 292px;
+  height: 501px;
+}
+.rectangle-div12,
+.rectangle-div13 {
+  left: 677px;
+  height: 231px;
+}
+.rectangle-div13 {
+  left: 338px;
+}
+.akar-iconsplus {
+  position: absolute;
+  top: 66px;
+  left: 96px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.image-div,
+.rectangle-div14 {
+  position: absolute;
+  top: 126px;
+  left: 66px;
+  width: 1308px;
+  height: 771px;
+}
+.rectangle-div14 {
+  top: 0;
+  left: 0;
+  background-color: rgba(13, 187, 132, 0.9);
+  width: 1440px;
+  height: 164px;
+  opacity: 0.9;
+}
+.stdcommunication-div {
+  position: absolute;
+  top: 21px;
+  left: 596px;
+  display: inline-block;
+  width: 403px;
+  height: 61px;
+  mix-blend-mode: normal;
+}
+.star-icon {
+  position: absolute;
+  top: 26.22px;
+  left: 533.04px;
+  border-radius: 25px;
+  width: 90px;
+  height: 90px;
+}
+.tobeit66kmitl-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.you-can-contact {
+  margin: 0;
+}
+.tobeit66kmitl-tel-018192526 {
+  position: absolute;
+  top: 85px;
+  left: 441px;
+  font-size: 15px;
+  font-family: Inria Sans;
+  text-align: center;
+  display: inline-block;
+  width: 651px;
+}
+.my-contact-div {
+  position: absolute;
+  top: 936px;
+  left: 0;
+  width: 1440px;
+  height: 164px;
+  text-align: left;
+  font-size: 40px;
+  font-family: RocknRoll One;
+}
+.artzone-div {
+  position: relative;
+  background-color: #ea5c8a;
+  width: 100%;
+  height: 1100px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  font-family: Inria Sans;
+}

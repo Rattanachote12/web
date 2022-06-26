@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=RocknRoll One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-div">
+      <img
+        class="biarrow-down-circle-fill-icon"
+        alt=""
+        src="public/biarrowdowncirclefill.svg"
+        id="biarrowDownCircleFill"
+      />
+      <div class="image-artshare-div" data-scroll-to="imageArtShareContainer">
+        <div class="rectangle-div27"></div>
+        <div class="rectangle-div28"></div>
+        <div class="rectangle-div29"></div>
+        <div class="rectangle-div30"></div>
+      </div>
+      <div class="about-me-div">About Me</div>
+      <img class="vector-icon2" alt="" src="public/vector-3.svg" />
+      <div class="my-team-div">
+        <div class="div">สวัสดีนะ เพื่อนๆ</div>
+        <div class="rectangle-div31"></div>
+        <div class="quantum">
+          <p class="quantum-p">พวกเราจากทีม Quantum นะ</p>
+          <p class="quantum-p">หวังว่าทุกคนจะเพลิดเพลินไปกับเว็บนี้นะ</p>
+          <p class="blank-line-p">&nbsp;</p>
+        </div>
+        <div class="div1">“ลุกออกมาจากเตียงแล้วไปทำอะไรใหม่ๆกัน”</div>
+      </div>
+      <div class="my-contact-div2">
+        <div class="rectangle-div32"></div>
+        <div class="stdcommunication-div2">STDcommunication</div>
+        <img class="star-icon2" alt="" src="public/star-22.svg" />
+        <div class="tobeit66kmitl-tel-0181925262">
+          <p class="quantum-p">
+            เลขที่ 1 ซอย ฉลองกรุง 1 แขวง ลาดกระบัง เขตลาดกระบัง กรุงเทพมหานคร
+            10520 ณ ค่าย ToBeIT’66@KMITL
+          </p>
+          <p class="quantum-p">Tel: 018192526</p>
+          <p class="blank-line-p">You can contact us at P’ Tonnam.</p>
+        </div>
+      </div>
+      <div class="top-div">
+        <div class="rectangle-div33"></div>
+        <div class="div2">
+          <span class="txt-span"
+            ><p class="quantum-p">หากิจกรรมทำกันอยู่ใช่มั้ย?</p>
+            <p class="quantum-p">อยู่บ้านเหงาๆไม่มีอะไรทำใช่รึเปล่า?</p>
+            <p class="quantum-p">
+              มาถูกที่แล้วนะ!!!ต้อนรับเข้าสู่เว็บไซต์ของเรา!!!
+            </p>
+            <p class="blank-line-p">
+              มาใช้ช่วงชีวิตวัยรุ่นให้คุ้มไปด้วยกันเถอะ!!!
+            </p></span
+          >
+        </div>
+      </div>
+      <div class="rectangle-div34"></div>
+      <div class="head-div2">
+        <div class="name-div2">
+          <img class="uiwstar-on-icon2" alt="" src="public/uiwstaron2.svg" />
+          <div class="line-div6"></div>
+          <div class="std-div2">STD</div>
+        </div>
+        <img
+          class="ant-designhome-filled-icon2"
+          alt=""
+          src="public/antdesignhomefilled2.svg"
+        /><img
+          class="eppostcard-icon2"
+          alt=""
+          src="public/eppostcard2.svg"
+          id="eppostcardIcon"
+        /><img
+          class="feapp-menu-icon2"
+          alt=""
+          src="public/feappmenu2.svg"
+        /><img
+          class="vector-icon3"
+          alt=""
+          src="public/vector2.svg"
+          id="vectorIcon"
+        />
+      </div>
+    </div>
+
+    <script>
+        var biarrowDownCircleFill = document.getElementById("biarrowDownCircleFill");
+        if(biarrowDownCircleFill) {
+          biarrowDownCircleFill.addEventListener("click", function () {
+            var anchor = document.querySelector("[data-scroll-to='imageArtShareContainer']");
+      if(anchor) {
+        anchor.scrollIntoView({"block":"start","behavior":"smooth"}) }
+          });
+        }
+
+
+        var eppostcardIcon = document.getElementById("eppostcardIcon");
+        if(eppostcardIcon) {
+          eppostcardIcon.addEventListener("click", function (e) {
+            window.location.href = "./share-activity.html"
+          });
+        }
+
+        var vectorIcon = document.getElementById("vectorIcon");
+        if(vectorIcon) {
+          vectorIcon.addEventListener("click", function (e) {
+            window.location.href = "./artzone.html"
+          });
+        }
+    </script>
+  </body>
+</html>

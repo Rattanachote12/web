@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Sans:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=RocknRoll One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-div">
+      <div class="rectangle-div"></div>
+      <b class="log-in-b">Log in</b>
+      <div class="login-div1" id="loginContainer">
+        <input class="rectangle-input" type="text" /><b class="log-in-b1"
+          >Log in</b
+        >
+      </div>
+      <div class="username-div">
+        <div class="rectangle-div1"></div>
+        <img
+          class="teenyiconsuser-circle-solid"
+          alt=""
+          src="public/teenyiconsusercirclesolid.svg"
+        />
+        <div class="username-div1">Username</div>
+      </div>
+      <div class="remember-div">
+        <div class="rectangle-div2"></div>
+        <div class="remember-me-div">Remember me</div>
+      </div>
+      <div class="password-div">
+        <div class="rectangle-div1"></div>
+        <img
+          class="teenyiconsuser-circle-solid"
+          alt=""
+          src="public/teenyiconslockcircleoutline.svg"
+        /><img class="bieye-fill-icon" alt="" src="public/bieyefill.svg" />
+        <div class="password-div1">Password</div>
+      </div>
+      <div class="sign-up-div" id="signUpText">Sign up</div>
+    </div>
+
+    <script>
+      var loginContainer = document.getElementById("loginContainer");
+      if(loginContainer) {
+        loginContainer.addEventListener("click", function (e) {
+          window.location.href = "./home.html"
+        });
+      }
+
+      var signUpText = document.getElementById("signUpText");
+      if(signUpText) {
+        signUpText.addEventListener("click", function (e) {
+          window.location.href = "./register.html"
+        });
+      }
+    </script>
+  </body>
+</html>

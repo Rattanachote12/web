@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.login-needs-to-use-autolayout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 4px solid red;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 777px;
+}
+.login-needs-to-use-autolayout1,
+.username-needs-to-use-autolay {
+  position: absolute;
+  top: 535px;
+  left: 904px;
+  border: 4px solid red;
+  box-sizing: border-box;
+  width: 429px;
+  height: 75px;
+}
+.username-needs-to-use-autolay {
+  top: 239px;
+}
+.teenyiconsuser-circle-solid-div,
+.vector-needs-to-use-autolayou {
+  position: absolute;
+  top: 261px;
+  left: 927px;
+  border: 4px solid red;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.vector-needs-to-use-autolayou {
+  top: 267px;
+  left: 937px;
+  width: 10px;
+  height: 10px;
+}
+.password-needs-to-use-autolay,
+.remember-needs-to-use-autolay {
+  position: absolute;
+  top: 467px;
+  left: 934px;
+  border: 4px solid red;
+  box-sizing: border-box;
+  width: 168px;
+  height: 27px;
+}
+.password-needs-to-use-autolay {
+  top: 352px;
+  left: 904px;
+  width: 429px;
+  height: 75px;
+}
+.bieye-fill-needs-to-use-auto,
+.group-needs-to-use-autolayout,
+.teenyiconslock-circle-outline-div,
+.vector-needs-to-use-autolayou3 {
+  position: absolute;
+  top: 374px;
+  left: 927px;
+  border: 4px solid red;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+}
+.bieye-fill-needs-to-use-auto,
+.group-needs-to-use-autolayout,
+.vector-needs-to-use-autolayou3 {
+  left: 1285px;
+}
+.group-needs-to-use-autolayout,
+.vector-needs-to-use-autolayou3 {
+  top: 378.69px;
+  height: 20.63px;
+}
+.vector-needs-to-use-autolayou3 {
+  top: 384.31px;
+  left: 1295.31px;
+  width: 9.38px;
+  height: 9.38px;
+}
+.export-to-code-errors-delete {
+  position: relative;
+  width: 100%;
+  height: 777px;
+  overflow: hidden;
+}
